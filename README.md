@@ -10,10 +10,11 @@
 |---|---|---|
 | LED（亮灭 / 闪烁 / PWM 调光） | [led.md](./led.md) | 1 |
 | 数码管 | [seg.md](./seg.md) | 1 |
-| 按键 | [key.md](./key.md) | 0 |
+| 按键 | [key.md](./key.md) | 1 |
 | EEPROM | [eeprom.md](./eeprom.md) | 2 |
 | DA 输出 | [da.md](./da.md) | 3 |
-| AD 采集 | [ad.md](./ad.md) | 0 |
+| AD 采集 | [ad.md](./ad.md) | 2 |
+| 定时 / 计数 | [timer.md](./timer.md) | 1 |
 | 超声波 | [ultrasonic.md](./ultrasonic.md) | 0 |
 | 串口 | [uart.md](./uart.md) | 0 |
 
