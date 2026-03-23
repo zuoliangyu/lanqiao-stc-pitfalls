@@ -17,7 +17,6 @@
 ```c
 // 错误写法：毫秒节拍只有 16 位，运行几十秒后就会溢出
 unsigned int uwTick;
-unsigned int keyTick;
 ```
 
 ### 解决方法
@@ -25,9 +24,8 @@ unsigned int keyTick;
 所有“系统节拍”“时间戳”“超时比较”变量统一改成 32 位整型，别让核心计时逻辑站在 16 位的小细腿上。
 
 ```c
-// 正确写法：节拍和时间戳统一使用 32 位
+// 正确写法：心跳改到 32 位
 unsigned long int uwTick;
-unsigned long int keyTick;
 ```
 
 ### 举一反三
