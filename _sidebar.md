@@ -9,4 +9,10 @@
   - [定时 / 计数](timer.md)
   - [超声波](ultrasonic.md)
   - [串口](uart.md)
+  - [温度 / 时钟 / 传感器](sensor.md)
+  - [工具链 / 环境](toolchain.md)
+  - [C51 语法 / 基础逻辑](programming.md)
+  - [综合赛题 / 系统](system.md)
+- **原始资料**
+  - [原始周报索引](weekly-index.md)
 - [格式规范](example.md)
